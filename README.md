@@ -1,2 +1,5 @@
-# PortfolioRocketseat
-Desafio da Rocketseat em criar um Portfolio.
+PortfolioRocketseat/
+|___ index.html
+|___ css/
+     |___ style.css
+|___ img/
