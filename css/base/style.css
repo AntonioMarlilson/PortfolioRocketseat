@@ -14,7 +14,6 @@
 /* General styles */
 body {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.6rem;
     background-color: #22212C;
     color: #837E9F;
 }
@@ -93,8 +92,8 @@ a {
     padding: 1.875rem 0 0.625rem 2.5rem;
 }
   
-.portfolio__links__list {
-}
+/*.portfolio__links__list {
+}*/
   
 .portfolio__links__item {
     margin: 0 0 1.25rem 0;
@@ -238,12 +237,12 @@ a {
   
 .portfolio__my-projects__title {
     font-weight: bold;
-    font-size: 20;
+    font-size: 20px;
 }
   
 .portfolio__my-projects__link {
     font-weight: normal;
-    font-size: 14;
+    font-size: 14px;
 }
   
 .portfolio__my-projects__link:hover {
@@ -289,8 +288,8 @@ a {
 }
 
 
-.portfolio__project1__item2 {
-}
+/*.portfolio__project1__item2 {
+}*/
 
 .portfolio__project1__description {
     font-weight: normal;
@@ -371,8 +370,8 @@ a {
 }
 
 
-.portfolio__project2__item2 {
-}
+/*.portfolio__project2__item2 {
+}*/
 
 .portfolio__project2__description {
     font-weight: normal;
@@ -428,9 +427,9 @@ a {
     padding: 1.875rem;
 }
   
-  .portfolio__recent-posts__title {
+.portfolio__recent-posts__title {
     font-weight: bold;
-    font-size: 20;
+    font-size: 20px;
 }
   
 
@@ -465,8 +464,7 @@ a {
 
 .portfolio__post__title {
     font-weight: bold;
-    font-size: 18px;
-    
+    font-size: 18px; 
 }
   
 .portfolio__post__date {
