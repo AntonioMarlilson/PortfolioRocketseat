@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 :root {
     --body-bg-color: #22212C;
     --text-color: #837E9F;
@@ -5,7 +11,344 @@
     --bg-techs: #CB92B1;
 }
 
+/* General styles */
 body {
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.6rem;
     background-color: #22212C;
+    color: #837E9F;
 }
+
+
+section {
+    background-color: #302F3D;
+    border-radius: 20px;
+    box-shadow: 4px 2px 4px black;
+    margin: 2.5rem 1.25rem 0 2.5rem;
+    padding: 1.25rem;
+} 
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}
+
+/* portfolio */
+.portfolio {
+    display: flex;
+}
+
+.portfolio__left-column {
+    width: auto;
+    flex-basis: 25%;
+}
+
+.portfolio__right-column {
+    width: auto;
+    flex: 1;
+}
+
+/* portfolio__profile */
+.portfolio__profile {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.portfolio__profile__image{ 
+    padding: 1.25rem;
+}
+
+.portfolio__profile__image img{ 
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    
+}
+
+.portfolio__profile__name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: .7rem;
+}
+
+.portfolio__profile__area {
+    font-weight: lighter;
+    font-size: 13px;
+    margin-bottom: 1.25rem;
+}
+
+/* portfolio__links */
+.portfolio__links {
+}
+  
+.portfolio__links__list {
+}
+  
+.portfolio__links__item {
+
+}
+  
+.portfolio__links__link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  
+.portfolio__links__icon {
+    margin-right: 1rem;
+}
+  
+.portfolio__links__label {
+    font-weight: regular;
+    font-size: 12px;
+}
+
+/* portfolio__technologies */
+.portfolio__technologies {
+}
+  
+.portfolio__technologies__title {
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.portfolio__technologies__list {
+    margin-left: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+  
+.portfolio__technologies__list-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #CB92B1;
+    color: black;
+    width: 30%;
+    height: 1.5rem;
+    flex-grow: 1;
+    border-radius: 30px; 
+    
+}
+
+/* portfolio__experience */
+.portfolio__experience {
+}
+.portfolio__experience__title { 
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.portfolio__experience__list {
+    list-style-type:disc;
+    font-size: 14px;   
+}
+.portfolio__experience__item { 
+    margin-left: 2.5rem; 
+}
+.portfolio__experience__item__title { 
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.portfolio__experience__item__period {
+    display: block;
+    font-weight:normal;
+    font-size: 12px;
+    
+}
+.portfolio__experience__item__description {
+    font-weight: lighter;
+    font-size: 12px;
+    
+}
+
+/* portfolio__education */
+.portfolio__education {
+
+}
+  
+.portfolio__education__title {
+
+}
+  
+.portfolio__education__list {
+
+}
+  
+.portfolio__education__item {
+    
+}
+  
+.portfolio__education__item__title {
+
+}
+  
+.portfolio__education__item__period {
+
+}
+  
+.portfolio__education__item__description {
+
+}
+
+
+/* portfolio__my-projects */
+.portfolio__my-projects {
+
+}
+  
+.portfolio__my-projects__title {
+
+}
+  
+.portfolio__my-projects__link {
+
+}
+  
+.portfolio__my-projects__link:hover {
+    
+}
+
+/* portfolio__project1 */
+.portfolio__project1 {
+  
+}
+
+.portfolio__project1__container {
+  
+}
+
+.portfolio__project1__item {
+  
+}
+
+.portfolio__project1__icon-top {
+  
+}
+
+.portfolio__project1__description {
+  
+}
+
+.portfolio__project1__icon-bottom {
+  
+}
+
+.portfolio__project1__elipse {
+  
+}
+
+.portfolio__project1__elipse + span {
+
+}
+
+/* portfolio__project2 */
+.portfolio__project1 {
+    
+}
+  
+.portfolio__project1__container {
+    
+}
+  
+.portfolio__project1__item {
+    
+}
+  
+.portfolio__project1__icon-top {
+    
+}
+  
+.portfolio__project1__description {
+    
+}
+  
+.portfolio__project1__icon-bottom {
+    
+}
+  
+.portfolio__project1__elipse {
+    
+}
+  
+.portfolio__project1__elipse::before {
+    
+}
+  
+.portfolio__project1__elipse::after {
+    
+}
+  
+
+/* portfolio__recent-posts */
+.portfolio__recent-posts {
+    
+}
+  
+  .portfolio__recent-posts__title {
+    
+}
+  
+
+/* portfolio__post */
+.portfolio__post {
+
+}
+  
+  /* Avatar */
+.portfolio__post__avatar {
+
+}
+  
+.portfolio__post__avatar-img {
+
+}
+  
+  /* Post content */
+.portfolio__post__content {
+
+}
+  
+.portfolio__post__title {
+
+}
+  
+.portfolio__post__date {
+
+}
+  
+.portfolio__post__description {
+
+}
+  
+  /* Hashtags */
+.portfolio__post__hashtags {
+
+}
+  
+.portfolio__post__hashtag {
+
+}
+  
+.portfolio__post__hashtag:hover {
+
+}
+  
