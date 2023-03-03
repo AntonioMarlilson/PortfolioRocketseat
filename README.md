@@ -14,7 +14,7 @@ Este é um projeto que fiz como parte do desafio da Rocketseat.
 
 ## Referências
 
-Rocketseat. (2022). Desafio - Portfólio. https://rocketseat.com.br
+Rocketseat. (2023). Desafio - Portfólio. https://rocketseat.com.br
 
 ![Banner do Desafio Rocketseat](https://github.com/AntonioMarlilson/PortfolioRocketseat/blob/main/img/bannerdesafio.jpeg?raw=true)
 
