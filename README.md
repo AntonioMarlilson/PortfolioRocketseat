@@ -1,12 +1,22 @@
-# Meu Portfólio
+# Meu projeto
 
-Neste desafio eu estarei criando uma página web para que seja um portfolio e currículo. Utilizando HTML e CSS.
+Este é um projeto que fiz como parte do desafio da Rocketseat.
 
-## Habilidades
+## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- BEM
+- HTML
+- CSS
+
+## Como executar o projeto
+
+1. Clone o repositório: `git clone https://github.com/seu-usuario/meu-projeto.git`
+2. Abra o arquivo index.html em seu navegador
+
+## Referências
+
+Rocketseat. (2022). Desafio - Portfólio. https://rocketseat.com.br
+
+![Banner do Desafio Rocketseat](https://github.com/AntonioMarlilson/PortfolioRocketseat/blob/main/img/bannerdesafio.jpeg?raw=true)
 
 ## Contato
 
