@@ -9,7 +9,7 @@ Este é um projeto que fiz como parte do desafio da Rocketseat.
 
 ## Como executar o projeto
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/meu-projeto.git`
+1. Clone o repositório: `git clone https://github.com/AntonioMarlilson/PortfolioRocketseat.git`
 2. Abra o arquivo index.html em seu navegador
 
 ## Referências
@@ -21,4 +21,4 @@ Rocketseat. (2023). Desafio - Portfólio. https://rocketseat.com.br
 ## Contato
 
 - Email: antoniomarlilson@gmail.com
-- LinkedIn: [perfil](https://www.linkedin.com/in/antonio-marlilson-9aab2a219/)
+- LinkedIn: [Antonio Marlilson](https://www.linkedin.com/in/antonio-marlilson-9aab2a219/)
